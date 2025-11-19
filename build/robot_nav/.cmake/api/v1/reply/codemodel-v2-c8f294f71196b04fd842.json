@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-ae87f463da06ee439138.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "robot_nav",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "bias_correct_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bias_correct_node-f3785e2fb30f5009340e.json",
+					"name" : "bias_correct_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "complementary_position_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-complementary_position_node-e32e71c74e99a0b75f38.json",
+					"name" : "complementary_position_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "data_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-data_node-bfd1828f22ace08ebc17.json",
+					"name" : "data_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lpf_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lpf_node-0bed05cab02143c6c861.json",
+					"name" : "lpf_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_nav_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_nav_uninstall-ef8d0d7cbb005c1b8a07.json",
+					"name" : "robot_nav_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-339be773106c78c67f3b.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/narjes/robotics_ws/build/robot_nav",
+		"source" : "/home/narjes/robotics_ws/src/robot_nav"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,124 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-c8cc5fc1c8812832ec81.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "robot_estimation",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "bias_correct_imu_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bias_correct_imu_node-e602b1635ffcd7d12849.json",
+					"name" : "bias_correct_imu_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "complementary_yaw_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-complementary_yaw_node-f8b2f8a287b99d5e6104.json",
+					"name" : "complementary_yaw_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "diff_drive_controller_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-diff_drive_controller_node-ffef1bcf62c6be742eb7.json",
+					"name" : "diff_drive_controller_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "low_pass_filter_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-low_pass_filter_node-98f9c284110c21d4133c.json",
+					"name" : "low_pass_filter_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "motion_model_odom_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motion_model_odom_node-d36ad39b6e9f4703b032.json",
+					"name" : "motion_model_odom_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "motor_command_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motor_command_node-bcfe3eac735aa074aa1c.json",
+					"name" : "motor_command_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_estimation_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_estimation_uninstall-a3fe77c44808e73e629d.json",
+					"name" : "robot_estimation_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-ab302ff70257b26094a8.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/narjes/robotics_ws/build/robot_estimation",
+		"source" : "/home/narjes/robotics_ws/src/robot_estimation"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,6 @@
+Invoking command in '/home/narjes/robotics_ws/build/robot_estimation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/narjes/robotics_ws/src/robot_estimation -DCMAKE_INSTALL_PREFIX=/home/narjes/robotics_ws/install/robot_estimation
+Invoked command in '/home/narjes/robotics_ws/build/robot_estimation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/narjes/robotics_ws/src/robot_estimation -DCMAKE_INSTALL_PREFIX=/home/narjes/robotics_ws/install/robot_estimation
+Invoking command in '/home/narjes/robotics_ws/build/robot_estimation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/narjes/robotics_ws/build/robot_estimation -- -j20 -l20
+Invoked command in '/home/narjes/robotics_ws/build/robot_estimation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/narjes/robotics_ws/build/robot_estimation -- -j20 -l20
+Invoking command in '/home/narjes/robotics_ws/build/robot_estimation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/narjes/robotics_ws/build/robot_estimation
+Invoked command in '/home/narjes/robotics_ws/build/robot_estimation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/narjes/robotics_ws/build/robot_estimation

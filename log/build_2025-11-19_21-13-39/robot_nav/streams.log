@@ -1,0 +1,103 @@
+[0.007s] Invoking command in '/home/narjes/robotics_ws/build/robot_nav': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/narjes/robotics_ws/src/robot_nav -DCMAKE_INSTALL_PREFIX=/home/narjes/robotics_ws/install/robot_nav
+[0.043s] -- The C compiler identification is GNU 11.4.0
+[0.080s] -- The CXX compiler identification is GNU 11.4.0
+[0.085s] -- Detecting C compiler ABI info
+[0.132s] -- Detecting C compiler ABI info - done
+[0.137s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.137s] -- Detecting C compile features
+[0.137s] -- Detecting C compile features - done
+[0.139s] -- Detecting CXX compiler ABI info
+[0.191s] -- Detecting CXX compiler ABI info - done
+[0.195s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.195s] -- Detecting CXX compile features
+[0.196s] -- Detecting CXX compile features - done
+[0.201s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.292s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.345s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.371s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.374s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.379s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.386s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.395s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.419s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.420s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.475s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.494s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.518s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.522s] -- Looking for pthread.h
+[0.571s] -- Looking for pthread.h - found
+[0.571s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.622s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.623s] -- Found Threads: TRUE  
+[0.654s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.672s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.681s] -- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)
+[0.688s] -- Found tf2: 0.25.16 (/opt/ros/humble/share/tf2/cmake)
+[0.697s] -- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.747s] -- Found tf2_geometry_msgs: 0.25.16 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[0.751s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.752s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.752s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.756s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.800s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.800s] -- Configured cppcheck include dirs: /home/narjes/robotics_ws/src/robot_nav/include
+[0.800s] -- Configured cppcheck exclude dirs and/or files: 
+[0.800s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.801s] -- Added test 'lint_cmake' to check CMake code style
+[0.801s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.801s] -- Added test 'uncrustify' to check C / C++ code style
+[0.801s] -- Configured uncrustify additional arguments: 
+[0.801s] -- Added test 'xmllint' to check XML markup files
+[0.802s] -- Configuring done
+[0.813s] -- Generating done
+[0.818s] -- Build files have been written to: /home/narjes/robotics_ws/build/robot_nav
+[0.825s] Invoked command in '/home/narjes/robotics_ws/build/robot_nav' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/narjes/robotics_ws/src/robot_nav -DCMAKE_INSTALL_PREFIX=/home/narjes/robotics_ws/install/robot_nav
+[0.826s] Invoking command in '/home/narjes/robotics_ws/build/robot_nav': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/narjes/robotics_ws/build/robot_nav -- -j20 -l20
+[0.856s] [ 12%] [32mBuilding CXX object CMakeFiles/lpf_node.dir/scripts/lpf.cpp.o[0m
+[0.857s] [ 25%] [32mBuilding CXX object CMakeFiles/complementary_position_node.dir/scripts/complementary_position.cpp.o[0m
+[0.857s] [ 37%] [32mBuilding CXX object CMakeFiles/data_node.dir/scripts/data.cpp.o[0m
+[0.862s] [ 50%] [32mBuilding CXX object CMakeFiles/bias_correct_node.dir/scripts/bias_correct.cpp.o[0m
+[11.698s] [ 62%] [32m[1mLinking CXX executable lpf_node[0m
+[12.096s] [ 75%] [32m[1mLinking CXX executable bias_correct_node[0m
+[12.146s] [ 75%] Built target lpf_node
+[12.261s] [ 87%] [32m[1mLinking CXX executable complementary_position_node[0m
+[12.478s] [ 87%] Built target bias_correct_node
+[12.564s] [ 87%] Built target complementary_position_node
+[14.213s] [100%] [32m[1mLinking CXX executable data_node[0m
+[14.441s] [100%] Built target data_node
+[14.451s] Invoked command in '/home/narjes/robotics_ws/build/robot_nav' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/narjes/robotics_ws/build/robot_nav -- -j20 -l20
+[14.451s] Invoking command in '/home/narjes/robotics_ws/build/robot_nav': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/narjes/robotics_ws/build/robot_nav
+[14.455s] -- Install configuration: ""
+[14.455s] -- Installing: /home/narjes/robotics_ws/install/robot_nav/share/robot_nav/scripts
+[14.456s] -- Installing: /home/narjes/robotics_ws/install/robot_nav/share/robot_nav/scripts/bias_correct.cpp
+[14.456s] -- Installing: /home/narjes/robotics_ws/install/robot_nav/share/robot_nav/scripts/data.cpp
+[14.456s] -- Installing: /home/narjes/robotics_ws/install/robot_nav/share/robot_nav/scripts/lpf.cpp
+[14.456s] -- Installing: /home/narjes/robotics_ws/install/robot_nav/share/robot_nav/scripts/complementary_position.cpp
+[14.456s] -- Installing: /home/narjes/robotics_ws/install/robot_nav/share/robot_nav/launch
+[14.456s] -- Installing: /home/narjes/robotics_ws/install/robot_nav/share/robot_nav/launch/nav.launch.py
+[14.456s] -- Installing: /home/narjes/robotics_ws/install/robot_nav/share/robot_nav/rviz
+[14.456s] -- Installing: /home/narjes/robotics_ws/install/robot_nav/share/robot_nav/rviz/display.rviz
+[14.456s] -- Installing: /home/narjes/robotics_ws/install/robot_nav/lib/robot_nav/data_node
+[14.458s] -- Set runtime path of "/home/narjes/robotics_ws/install/robot_nav/lib/robot_nav/data_node" to ""
+[14.458s] -- Installing: /home/narjes/robotics_ws/install/robot_nav/lib/robot_nav/lpf_node
+[14.460s] -- Set runtime path of "/home/narjes/robotics_ws/install/robot_nav/lib/robot_nav/lpf_node" to ""
+[14.460s] -- Installing: /home/narjes/robotics_ws/install/robot_nav/lib/robot_nav/bias_correct_node
+[14.462s] -- Set runtime path of "/home/narjes/robotics_ws/install/robot_nav/lib/robot_nav/bias_correct_node" to ""
+[14.462s] -- Installing: /home/narjes/robotics_ws/install/robot_nav/lib/robot_nav/complementary_position_node
+[14.464s] -- Set runtime path of "/home/narjes/robotics_ws/install/robot_nav/lib/robot_nav/complementary_position_node" to ""
+[14.464s] -- Installing: /home/narjes/robotics_ws/install/robot_nav/share/ament_index/resource_index/package_run_dependencies/robot_nav
+[14.464s] -- Installing: /home/narjes/robotics_ws/install/robot_nav/share/ament_index/resource_index/parent_prefix_path/robot_nav
+[14.464s] -- Installing: /home/narjes/robotics_ws/install/robot_nav/share/robot_nav/environment/ament_prefix_path.sh
+[14.464s] -- Installing: /home/narjes/robotics_ws/install/robot_nav/share/robot_nav/environment/ament_prefix_path.dsv
+[14.464s] -- Installing: /home/narjes/robotics_ws/install/robot_nav/share/robot_nav/environment/path.sh
+[14.464s] -- Installing: /home/narjes/robotics_ws/install/robot_nav/share/robot_nav/environment/path.dsv
+[14.464s] -- Installing: /home/narjes/robotics_ws/install/robot_nav/share/robot_nav/local_setup.bash
+[14.465s] -- Installing: /home/narjes/robotics_ws/install/robot_nav/share/robot_nav/local_setup.sh
+[14.465s] -- Installing: /home/narjes/robotics_ws/install/robot_nav/share/robot_nav/local_setup.zsh
+[14.465s] -- Installing: /home/narjes/robotics_ws/install/robot_nav/share/robot_nav/local_setup.dsv
+[14.465s] -- Installing: /home/narjes/robotics_ws/install/robot_nav/share/robot_nav/package.dsv
+[14.465s] -- Installing: /home/narjes/robotics_ws/install/robot_nav/share/ament_index/resource_index/packages/robot_nav
+[14.465s] -- Installing: /home/narjes/robotics_ws/install/robot_nav/share/robot_nav/cmake/robot_navConfig.cmake
+[14.465s] -- Installing: /home/narjes/robotics_ws/install/robot_nav/share/robot_nav/cmake/robot_navConfig-version.cmake
+[14.465s] -- Installing: /home/narjes/robotics_ws/install/robot_nav/share/robot_nav/package.xml
+[14.466s] Invoked command in '/home/narjes/robotics_ws/build/robot_nav' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/narjes/robotics_ws/build/robot_nav
